@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #1d2124;
 }
 
 [tabindex="-1"]:focus {
@@ -71,6 +71,13 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+
+.logo {
+  width: 50px !important;
+  height: 50px;
+  object-fit: cover;
+  border: 5px solid black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -364,6 +371,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: white;
 }
 
 h1, .h1 {
@@ -380,6 +388,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.5rem;
+  color: black;
 }
 
 h5, .h5 {
@@ -702,6 +711,7 @@ pre code {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
+  color: white;
 }
 
 .order-first {
@@ -5317,6 +5327,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .media-body {
   -ms-flex: 1;
   flex: 1;
+  font-size: 13px;
+  color: white;
 }
 
 .list-group {
@@ -6578,7 +6590,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: black !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6735,6 +6747,7 @@ button.bg-dark:focus {
 
 .d-block {
   display: block !important;
+  
 }
 
 .d-table {
@@ -7852,6 +7865,9 @@ button.bg-dark:focus {
 
 .w-100 {
   width: 100% !important;
+  height: 400px;
+  object-fit: cover;
+  border: 5px solid black;
 }
 
 .w-auto {
@@ -7998,6 +8014,8 @@ button.bg-dark:focus {
 .mr-3,
 .mx-3 {
   margin-right: 1rem !important;
+  height: 150px;
+  width: 150px;
 }
 
 .mb-3,
