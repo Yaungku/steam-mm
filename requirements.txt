@@ -1,0 +1,9 @@
+Database Input Requirements
+1. Game Name
+2. Logo(img)
+3. catagories
+4. Description
+5. Gameplay(img)
+6. Requirements
+7. Links
+8. How to download(video)
